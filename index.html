@@ -1,0 +1,28 @@
+from django.contrib import admin
+
+# Register your models here.
+from django.contrib import admin
+
+# Register your models here.
+from django.contrib.auth.admin import UserAdmin
+from .models import CustomUser, Service, CategoryService, Prestataire
+
+# admin.site.register(CustomUser, UserAdmin)
+
+@admin.register(CustomUser)
+class CustumAdmin(admin.ModelAdmin):
+        list_display = ['nom', 'prenom', 'is_prestataire', 'is_commandeur','password']
+
+@admin.register(Prestataire)
+class PrestataireAdmin(admin.ModelAdmin):
+     list_display =['services','Quartier', 'ville', 'user']
+
+@admin.register(CategoryService)
+class CategoryAdmin(admin.ModelAdmin):
+    list_display =['nom',]
+
+
+@admin.register(Service)
+class ServiceAdmin(admin.ModelAdmin):
+    list_display =['nom',]    
+

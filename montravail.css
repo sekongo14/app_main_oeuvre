@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('5.jpg') no-repeat center center fixed;
+            /* Vous pouvez ajuster le chemin et d'autres propriétés selon vos besoins */
+            background-size: cover; /* Assure que l'image couvre toute la zone du corps */
+            height: 100vh; /* Assure que le corps occupe la hauteur complète de la fenêtre */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    
+  }
+  .conteneur-transparent {
+    position: absolute;
+    top: 90;
+    left: 50;
+    right: 50;
+    bottom: 90;
+    width: 50%;
+    height: 90%;
+    background-color: rgba(214, 219, 216, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.position{
+  margin: 0;
+  padding: 0;
+  text-align-last: center;
+  top: auto;
+
+}
+input{
+  background-color: rgb(96, 156, 247);
+  border-radius: 20px; /* Vous pouvez ajuster la valeur pour changer le degré d'arrondi */
+  padding: 8px; /* Ajoutez du padding pour un aspect plus esthétique */
+  border: 1px solid #ccc; /* Ajoutez une bordure pour plus de visibilité */
+  width: 250px;
+}
+.de{
+  background-color: rgb(113, 121, 118);
+}
+
+h1 {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 50px;
+}
+h2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 140px;
+  color: #5b89e4;
+}
+form {
+  position: relative;
+}
+
+input[type="submit" ] {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px; /* Ajustez la largeur selon vos besoins */
+  height: 50px; 
+  border-radius: 0%;
+  background-color: rgb(46, 189, 236);
+  font-size: 26px;
+}
+
+.separation {
+  border-top: 2px solid #abb0b3;
+  margin: 20px 0;
+  width: 20%;
+}
+.AB{
+  border-radius: 0%;
+  background-color: rgb(46, 189, 236);
+  font-size: 26px;
+}
+label {
+  font-size: 20px; /* Ajustez la taille selon vos besoins */
+}
+

@@ -1,0 +1,129 @@
+
+body {
+    font-size: 17px;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.Prestataires h2{
+    text-align: center;
+    font-size: 45px;
+}
+
+.Prestataires .grand_bloc{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img_perso{
+    height: 70px;
+    width: 70px;
+}
+
+.bloc_perso{
+    /*border: 1px solid red;*/
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.apps_btn{
+    height: 35px;
+    width: 115px;
+}
+
+.ligne{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.persos{
+    /*border: 1px solid blue;*/
+    padding: 3.5px 35px;
+    border-radius: 7px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.559);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+a .btn_commande{
+    cursor: pointer;
+}
+a .btn_commande:hover{
+    transition: .3s;
+    transform: scale(0.9);
+}
+
+.persos .btn_commande{
+    background-color: rgba(8, 0, 168, 0.877);
+    outline: none;
+    color: white;
+    border-radius: 3px;
+    padding: 6px;
+    border: 0;
+}
+
+.bloc_info{
+    margin-left: 12px;
+    padding: 3px 15px;
+    /*border: 1px solid yellow;*/
+    font-size: 16px;
+    border-radius: 6px;
+    background: rgba(8, 0, 168, 0.877);
+    color: white;
+}
+.bloc_info h2{
+    font-size: 30px;
+}
+
+.defile_bloc{
+    width: 100%;
+    overflow: hidden;
+    /*border: 1px solid black;*/
+    margin-top: 50px;
+    padding: 3px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+.defile_bloc span{
+    padding: 4px 10px;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 4px;
+}
+.defile_bloc .btn-defile{
+    font-weight: bold;
+    padding: 0px 6px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.defile_bloc .btn-defile:hover{
+    transition: .3s;
+    transform: scale(0.95);
+}
+
+footer{
+    border: 1px solid black;
+    padding: 3px;
+    color: white;
+    background: #000;
+    text-align: center;
+}
+footer .Bloc_conteneur{
+    padding-top: 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Bloc_conteneur .bloc_link{
+    width: 80%;
+}
+
+h3{
+    font-size: 25px;
+}

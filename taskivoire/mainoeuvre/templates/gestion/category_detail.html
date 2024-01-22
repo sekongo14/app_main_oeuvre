@@ -194,7 +194,7 @@
                                 {% for data in prestataires %}
                                 <div class="col-md-4 mb-4">
                                     <div class="card">
-                                        <img width="90px" class="card-img-top"src="{% static 'img/WhatsApp Image 2024-01-08 à 21.47.45_b11cf277.jpg' %}"alt="Photo prestataire">
+                                        <img width="90px" class="card-img-top"src="../media/{{data.photo}}"alt="Photo prestataire">
                                         <div class="card-body">
                                             <h5 class="card-title">{{ data.user.first_name }} {{ data.user.last_name }}</h5>
                                             <p class="card-text"><strong>Commune</strong>: Yop</p>
